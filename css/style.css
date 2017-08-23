@@ -1,3 +1,6 @@
+@import 'bootstrap.min.css'
+@import 'bootstrap-grid.css'
+
 #intro_txt {
   color: white;
   font-size: 2em;
