@@ -1,8 +1,10 @@
 #intro_txt {
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   position: absolute;
   top: 35%;
+  margin: 5%;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
 
 #home_background {
@@ -29,4 +31,20 @@
 #footer ul a:hover {
     color: #999;
     text-decoration: none;
+}
+.icon_holder ul {
+    display: flex;
+    position: absolute;
+    top: 55%;
+    margin: 15px;
+}
+.icon_holder ul li {
+    list-style: none;
+    padding: 15px;
+}
+.icon_holder ul li a {
+    color: black; 
+}
+.bandcamp_logo {
+    height: 1em;
 }
