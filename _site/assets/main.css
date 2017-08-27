@@ -20,16 +20,21 @@
 #footer ul {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    margin: 0;
+    padding: 5%;
+    width: 60%;
+    margin-left: 20%;
 }
 #footer ul li {
     color: white;
     list-style: none;
 }
 #footer ul a {
-    color: white;
+    color: #999;
 }
 #footer ul a:hover {
-    color: #999;
+    color: #fff;
     text-decoration: none;
 }
 .icon_holder ul {
@@ -47,4 +52,52 @@
 }
 .bandcamp_logo {
     height: 1em;
+}
+
+@media (min-width:320px) {
+    body {
+        overflow-x: hidden; 
+    }
+#intro_txt {
+    color: white;
+    font-size: 2.2em;
+    top: 30%;
+}
+#home_background {
+    padding: 0px;
+    margin: 0px;
+    max-height: 40rem;
+    width: auto;
+}
+    #footer {
+    background: #222;
+    padding: 50px;
+    width: 100%;
+}
+    .icon_holder ul {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin: 5px;
+}
+    .icon_holder ul {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin: 0px;
+    width: 50%;
+    padding: 0px;
+}
+    #footer ul {
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+    }  #footer ul li {
+        margin-bottom: 10px;
+    }
+    
 }
