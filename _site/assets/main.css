@@ -54,7 +54,7 @@
     height: 1em;
 }
 
-@media (min-width:320px) {
+@media (min-width:320px) and (max-width:767px) {
     body {
         overflow-x: hidden; 
     }
@@ -97,7 +97,7 @@
     width: 100%;
     text-align: center;
     }  #footer ul li {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     
 }
