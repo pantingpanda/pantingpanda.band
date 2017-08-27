@@ -1,103 +1,101 @@
 #intro_txt {
-  color: white;
-  font-size: 3em;
-  position: absolute;
-  top: 35%;
-  margin: 5%;
-  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+color: white;
+font-size: 3em;
+position: absolute;
+top: 35%;
+margin: 5%;
+text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
-
 #home_background {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
+padding: 0px;
+margin: 0px;
+width: 100%;
 }
-
 #footer {
-    background: #222;
-    padding: 50px;
+background: #222;
+padding: 50px;
 }
 #footer ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    margin: 0;
-    padding: 5%;
-    width: 60%;
-    margin-left: 20%;
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+margin: 0;
+padding: 5%;
+width: 60%;
+margin-left: 20%;
 }
 #footer ul li {
-    color: white;
-    list-style: none;
+color: white;
+list-style: none;
 }
 #footer ul a {
-    color: #999;
+color: #999;
 }
 #footer ul a:hover {
-    color: #fff;
-    text-decoration: none;
+color: #fff;
+text-decoration: none;
 }
 .icon_holder ul {
-    display: flex;
-    position: absolute;
-    top: 55%;
-    margin: 15px;
+display: flex;
+position: absolute;
+top: 55%;
+margin: 15px;
 }
 .icon_holder ul li {
-    list-style: none;
-    padding: 15px;
+list-style: none;
+padding: 15px;
 }
 .icon_holder ul li a {
-    color: black; 
+color: black; 
 }
 .bandcamp_logo {
-    height: 1em;
+height: 1em;
 }
 
 @media (min-width:320px) and (max-width:767px) {
-    body {
-        overflow-x: hidden; 
-    }
+body {
+overflow-x: hidden; 
+}
 #intro_txt {
-    color: white;
-    font-size: 2.2em;
-    top: 30%;
+color: white;
+font-size: 2.2em;
+top: 30%;
 }
 #home_background {
-    padding: 0px;
-    margin: 0px;
-    max-height: 40rem;
-    width: auto;
+padding: 0px;
+margin: 0px;
+max-height: 40rem;
+width: auto;
 }
-    #footer {
-    background: #222;
-    padding: 50px;
-    width: 100%;
+#footer {
+background: #222;
+padding: 50px;
+width: 100%;
 }
-    .icon_holder ul {
-    display: flex;
-    position: absolute;
-    top: 60%;
-    margin: 5px;
+.icon_holder ul {
+display: flex;
+position: absolute;
+top: 60%;
+margin: 5px;
 }
-    .icon_holder ul {
-    display: flex;
-    position: absolute;
-    top: 60%;
-    margin: 0px;
-    width: 50%;
-    padding: 0px;
+.icon_holder ul {
+display: flex;
+position: absolute;
+top: 60%;
+margin: 0px;
+width: 50%;
+padding: 0px;
 }
-    #footer ul {
-    display: inline-block;
-    justify-content: space-between;
-    font-size: 14px;
-    margin: 0;
-    padding: 5%;
-    width: 100%;
-    text-align: center;
-    }  #footer ul li {
-        margin-bottom: 5px;
-    }
-    
+#footer ul {
+display: inline-block;
+justify-content: space-between;
+font-size: 14px;
+margin: 0;
+padding: 5%;
+width: 100%;
+text-align: center;
+}  #footer ul li {
+margin-bottom: 5px;
+}
+
 }
