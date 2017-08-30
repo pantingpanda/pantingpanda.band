@@ -15,10 +15,12 @@ p {
 /*color: #0000da;*/
 color: #444;
 line-height: 2;
-font-family: "PT Sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 18px;
 font-weight: normal;
 text-align: justify;
+}
+p, .display-3 {
+font-family: "PT Sans", 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 blockquote {
 border-left: solid 3px blue;
