@@ -1,3 +1,35 @@
+/*site wide*/
+*::-selection {
+background: #555;
+color: white;
+}
+*::-moz-selection {
+background: #555;
+color: white;
+}
+body {
+overflow-x: hidden;
+background-attachment: fixed;
+}
+p {
+/*color: #0000da;*/
+color: #444;
+line-height: 2;
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-weight: normal;
+text-align: justify;
+}
+blockquote {
+border-left: solid 3px blue;
+padding-left: 10px;
+}
+.post_excerpt img {
+    display: none;
+}
+.navbar {
+background: #9effff;
+}
 #intro_txt {
 color: white;
 font-size: 3em;
@@ -11,9 +43,15 @@ padding: 0px;
 margin: 0px;
 width: 100%;
 }
+.page-content {
+    margin-bottom: -10rem;
+    overflow: hidden;
+    background-attachment: fixed;
+}
 #footer {
-background: #222;
 padding: 50px;
+margin-top: 10rem;
+background: url('img/footer_texture.png');
 }
 #footer ul {
 display: flex;
@@ -32,7 +70,7 @@ list-style: none;
 color: #999;
 }
 #footer ul a:hover {
-color: #fff;
+color: #555;
 text-decoration: none;
 }
 .icon_holder ul {
@@ -51,15 +89,125 @@ color: black;
 .bandcamp_logo {
 height: 1em;
 }
+#music_background {
+max-height: 200px;
+width: 100%;
+}
+.img-responsive {
+max-width: 100%;  
+}
+.wrapper {
+padding: 0rem 0 10rem;
+}
+
+/*Music Grid*/
+.grid_post_title {
+text-align: center;
+padding: 10px;
+margin-top: 10px;
+color: black;
+}
+.grid_link:hover {
+opacity: 0.7;
+text-decoration: none;
+transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+-webkit-transition-duration: 0.2s;
+}
+.music_thumbnail {
+width: 100%;
+height: auto;
+}
+#music_grid_wrapper {
+margin-left: 10rem;
+}
+#site_header {
+text-align: center;
+}
+/*blog page css*/
+.post_excerpt {
+text-align: left;
+letter-spacing: 2px;
+}
+.blog_grid_post_title {
+text-align: center;
+padding: 0px;
+margin: 10px 0 5px 0;
+color: black;
+}
+/*
+.blog_grid_wrapper {
+    display: grid;
+    grid-template-column: 30%
+}*/
+.post-link-container {
+padding: 30px;
+list-style: none;
+margin: 0px 15px 15px 15px;
+}
+.post-link-container, .post-link-container img {
+border: solid 2px #000;
+}
+
+/*post page*/
+.post_content_wrapper {
+margin-top:15px;
+}
+.post_content_wrapper p img, .post_content_wrapper img {
+margin: 15px 0px 15px 0px;
+padding: 0;
+}
+.blog_page_wrapper {
+width: 80%;
+margin: 5rem 0 -5rem 10rem;
+border: solid 5px #000;
+padding: 15px;
+}
+
+/*music post*/
+.music_post_wrapper {
+width: 80%;
+margin-left: 10%;
+padding: 15px;
+}
+.music_post_wrapper .fa-spotify, .music_post_wrapper .fa-music {
+    font-size: 2rem !important;
+}.music_post_wrapper .fa-bandcamp {
+    font-size: 1.8rem !important;
+}
+
+/*blog grid*/
+.grid-sizer,
+.grid-item {
+  width: 30%;
+}
+.grid-item {
+  float: left;
+
+}
 
 @media (min-width:320px) and (max-width:767px) {
 body {
 overflow-x: hidden; 
 }
+p {
+font-size: 16px;
+letter-spacing: normal;
+text-align: left;
+}
 #intro_txt {
 color: white;
 font-size: 2.2em;
 top: 30%;
+}
+.grid-sizer,
+.grid-item {
+  width: 100%;
+}
+#music_grid_wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
 }
 #home_background {
 padding: 0px;
@@ -97,5 +245,50 @@ text-align: center;
 }  #footer ul li {
 margin-bottom: 5px;
 }
+.wrapper {
+padding-bottom: 2rem;
+}
+/*blog*/
+.post-link-container {
+display: block;
+max-width: 100%;
+}
+.blog_page_wrapper {
+width: 100%;
+margin:0px;
+padding: 0;
+}
+.blog_page_wrapper {
+border-style: solid none;
+}
+.post_content_wrapper {
+margin: 15px 10px;
+}
+.post-link-container {
+    padding: 30px;
+    list-style: none;
+    margin: 0px 0px 15px 0px;
+}
 
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+.post-link-container {
+    padding: 30px;
+    list-style: none;
+    margin: 15px 15px;
+}  
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+#music_grid_wrapper {
+margin-left: 0;
+}
+.blog_page_wrapper {
+width: 85%;
+margin: 5rem 0 -5rem 3.5rem;
+border: solid 5px #000;
+padding: 15px;
+}
 }

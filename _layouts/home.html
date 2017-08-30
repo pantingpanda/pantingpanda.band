@@ -3,7 +3,7 @@
 {% include head.html %} 
 <body>
   {% include header.html %}
-  <div class="page_wrapper">
+  <main class="page-content" aria-label="Content">
     <img id="home_background" src="../assets/img/{{ page.background }}">
     <h1 class="justify-content-end" id="intro_txt">{{ page.intro }}</h1>
     <div class="icon_holder">
@@ -17,7 +17,7 @@
         <li><a href="{{ page.vinyl }}">Vinyl</a></li>
     </ul>
     </div>
-  </div>
+  </main>
     {% include footer.html %}
 </body>
 </html>

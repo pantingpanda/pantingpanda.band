@@ -1,5 +1,21 @@
 ---
 layout: default
-background: pantingpanda_bandcamp_bg.png
+title: "Music"
+bg-color: "#fff"
+bg-image: 
 ---
-
+<div class="jumbotron" style="background: url('{{ site.url}}/assets/img/{{ page.jumbo-bg }}')">
+    <h1 id="site_header">{{ page.title }}</h1>
+</div>
+<div id="music_grid_wrapper">
+    <div class="row">
+        {% for audio in site.categories.audio %}
+        <div class="col-md-4, col-sm-6, col-lg-4">
+            <a class="grid_link" href="{{ audio.url | relative_url }}">
+                <img class="music_thumbnail img-responsive" src="{{ site.url}}/assets/img/{{ audio.thumbnail }}">
+                 <h3 class="grid_post_title">{{ audio.title }}</h3>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
