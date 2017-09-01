@@ -304,6 +304,9 @@ margin: 15px;
 #music_grid_wrapper {
 margin-left: 0;
 }
+#home_background {
+    width: auto;
+}
 .blog_page_wrapper {
 width: 95%;
 margin: 2rem auto;
@@ -311,6 +314,9 @@ padding: 15px;
 }
 .comment_wrapper {
   width: 85%;
+}
+#home_background {
+    width: auto;
 }
 .wrapper {
 padding: 0 0 2rem;
