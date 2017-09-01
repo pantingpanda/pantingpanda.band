@@ -2,14 +2,14 @@
 # pantingpanda.github.io
 
 # Panting Panda
-A website built on jekyll to be used as a portfolio, blog, and for easy customization. 
+A website built on jekyll to be used as a portfolio, blog, and for easy customization.
 a
 ## Default Pages Vars
 1. bg-color (changes the pages background-color)
 2. bg-image (changes the pages background-image)
 
 ## Blog Post Category Vars
-1. title: "Your Title Here" 
+1. title: "Your Title Here"
 2. thumbnail: me.png (thumbnail shows up at the the ***/blog*** url)
 3. background: "#DDE7FF" (sets the jumbotron's bg as well as the post thumbail's bg)
 4. category: blogs (this **MUST** always be there in a blog post, otherwise it will not render in the ***/blog*** section)
@@ -24,5 +24,9 @@ a
 1. title: "Music"
 2. bg-color: "#fff"
 3. bg-image: cherryblossom-bg.png
-=======
+4. jumbo-bg: (hex-code for jumbotron  background)
 
+## About.md
+1. title
+2. img (image for the page)
+=======
