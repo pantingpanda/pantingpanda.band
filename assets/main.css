@@ -282,11 +282,18 @@ margin-top: 10px;
 .blog_page_wrapper {
 border-style: solid none;
 }
+    
+/*Music Post*/
 .music_post_wrapper {
 min-width: 100% !important;
 margin: 2rem 0;
 padding: 0px;
 }
+.music_post_wrapper .display-3, .music_post_wrapper .fa {
+margin-left: 15px;
+}
+/*End Music Post*/
+    
 .post_content_wrapper {
 margin: 15px;
 }

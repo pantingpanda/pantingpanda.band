@@ -1,9 +1,6 @@
-
-# pantingpanda.github.io
-
-# Panting Panda
+# Panting Panda Website
 A website built on jekyll to be used as a portfolio, blog, and for easy customization.
-a
+
 ## Default Pages Vars
 1. bg-color (changes the pages background-color)
 2. bg-image (changes the pages background-image)
@@ -29,4 +26,3 @@ a
 ## About.md
 1. title
 2. img (image for the page)
-=======
