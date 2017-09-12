@@ -1,14 +1,15 @@
 ---
 layout: blog-post
-title: "Why Music is a Practical Career"
+title: Why Music is a Practical Career
 thumbnail: music_practical_career.jpg
-background: "#DDE7FF"
+background: '#DDE7FF'
 category: blogs
 comments: true
+published: true
 ---
 Music is often disregarded as an impractical in many families, perhaps because of the "you are something or you are nothing" philosophy that we keep hearing in the music industry. But I don't believe that statement to be true.  And here's why:
 
-  ## 1. You CAN earn a respectable living in music.
+  ## 1) You CAN earn a respectable living in music.
 Contrary to to popular belief, music has numerous revenue streams which will allow music professionals to earn a respectable living, and they are only growing in number especially with the advents of streaming (Universal Music claims to make 6M in revenues this year).
 
 Here are a few examples of some of the ways to make money in music:
