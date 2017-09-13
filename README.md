@@ -16,6 +16,7 @@ A website built on jekyll to be used as a portfolio, blog, and for easy customiz
 2. spotify (links to the album/single on spotify)
 3. bandcamp (links to the album/single on bandcamp)
 4. itunes (links to the album/single on itunes)
+5. release_type (kind of release i.e **single/mini-album/EP** etc)
 
 ## Music.html and Blog.html
 1. title: "Music"

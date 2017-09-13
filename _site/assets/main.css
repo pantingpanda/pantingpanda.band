@@ -21,6 +21,9 @@ font-size: 18px;
 font-weight: normal;
 text-align: justify;
 }
+small {
+  color: pink;
+}
 ul li , ol li {
   margin-bottom: 10px;
 }
@@ -36,6 +39,19 @@ display: none;
 }
 .navbar {
 background: #9effff;
+border-bottom: solid 4px #000;
+}
+.nav-link {
+  color: black;
+}
+#logo_object {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+#logo_object:hover {
+  transform: rotate(-20deg);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 #intro_txt {
 color: white;
@@ -109,8 +125,7 @@ padding: 0rem 0 10rem;
 
 /*Music Grid*/
 .grid_post_title {
-text-align: center;
-padding: 10px;
+text-align: left;
 margin-top: 10px;
 color: black;
 }
@@ -147,11 +162,12 @@ color: black;
 .jumbotron {
 margin-bottom: 0;
 }
-
+/*End Boostrap*/
 .post-link-container {
 padding: 30px;
 list-style: none;
 margin: 0px 15px 15px 15px;
+background-image: url('/assets/img/bg_texture.png');
 }
 .post-link-container p {
 text-align: left;
@@ -196,8 +212,12 @@ width: 30%;
 float: left;
 }
 .border {
-border:solid 1px #000 !important;
+border: solid 1px #000 !important;
 border-radius: 0px;
+}
+.border-thick {
+  border: solid 10px #000 !important;
+  border-radius: 0px;
 }
 @media (min-width:320px) and (max-width:767px) {
 body {
@@ -205,7 +225,7 @@ overflow-x: hidden;
 }
 p {
 font-size: 16px;
-letter-spacing: normal;
+letter-spacing: 1px;
 text-align: left;
 }
 #intro_txt {
@@ -282,7 +302,7 @@ margin-top: 10px;
 .blog_page_wrapper {
 border-style: solid none;
 }
-    
+
 /*Music Post*/
 .music_post_wrapper {
 min-width: 100% !important;
@@ -293,7 +313,7 @@ padding: 0px;
 margin-left: 15px;
 }
 /*End Music Post*/
-    
+
 .post_content_wrapper {
 margin: 15px;
 }
