@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/blogs/now-is-the-time.md
 hide_body: false
 fields:
 - type: textarea
