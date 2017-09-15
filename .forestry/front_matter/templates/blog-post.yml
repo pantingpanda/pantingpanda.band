@@ -15,3 +15,7 @@ fields:
   name: background
   label: Background
   description: background color of the post as seen in the blog grid
+- type: textarea
+  name: category
+  label: category
+  default: blogs
