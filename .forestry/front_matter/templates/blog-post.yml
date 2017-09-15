@@ -1,0 +1,17 @@
+---
+hide_body: false
+fields:
+- type: textarea
+  name: title
+  label: Title
+  description: title of the blog post
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: image that shows up at the blog page's grid.
+  config:
+    maxSize: '2'
+- type: textarea
+  name: background
+  label: Background
+  description: background color of the post as seen in the blog grid
