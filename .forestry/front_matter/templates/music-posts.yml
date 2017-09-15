@@ -26,3 +26,8 @@ fields:
   label: iTunes
   name: itunes
   description: link to audio in iTunes
+- type: textarea
+  name: category
+  label: category
+  description: category of post (must be 'music')
+  default: music
