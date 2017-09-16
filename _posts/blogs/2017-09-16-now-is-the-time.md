@@ -2,9 +2,10 @@
 background: "#fff"
 category: blogs
 date: 2017-09-16 00:28:51 +0000
-thumbnail: "/assets/img/inspo_two.jpeg"
-title: Now is the Time
 layout: blog-post
+thumbnail: "/uploads/2017/09/16/IMG_4539.jpg"
+title: Now is the Time
+comments: 'true'
 ---
 Now is the greatest time ever for making it in the music industry. And all you need is the necessary skills, patient, and to preserve. 
 
