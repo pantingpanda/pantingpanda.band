@@ -1,6 +1,5 @@
 ---
 background: "#fff"
-category: blogs
 comments: 'true'
 date: 2017-09-16 00:28:51 +0000
 layout: blog-post
