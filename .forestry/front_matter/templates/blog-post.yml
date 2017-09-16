@@ -25,3 +25,8 @@ fields:
   name: layout
   label: layout
   default: blog-post
+- type: textarea
+  label: comments
+  name: comments
+  description: disqus comments
+  default: 'true'
