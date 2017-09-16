@@ -21,3 +21,7 @@ fields:
   name: category
   label: category
   default: blogs
+- type: textarea
+  name: layout
+  label: layout
+  default: blog-post
