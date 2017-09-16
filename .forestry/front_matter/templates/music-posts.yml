@@ -31,3 +31,8 @@ fields:
   label: category
   description: category of post (must be 'music')
   default: music
+- type: textarea
+  name: layout
+  label: layout
+  default: |
+    music-post
