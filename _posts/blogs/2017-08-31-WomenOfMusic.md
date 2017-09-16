@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: Women Of Music I Adore
-thumbnail: women_of_music.jpeg
+thumbnail: "/assets/img/women_of_music.jpeg"
 background: "#FFF2D9"
 comments: true
 categories: blogs
