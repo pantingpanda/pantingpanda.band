@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Blog"
+title: Blog
 bg-color: "#FFD9D9"
-canonical_url: 'http://pantingpanda.band/'
-jumbo-bg: "transparent"
+canonical_url: http://pantingpanda.band/
+jumbo-bg: transparent
 ---
 <div class="jumbotron" style="background: {{ page.jumbo-bg }}">
   <h1 id="site_header">{{ page.title }}</h1>
@@ -16,7 +16,11 @@ jumbo-bg: "transparent"
             <div class="post-link-container" style="background-color:{{ blogs.background }}">
                 <a class="grid_link" href="{{ blogs.url | relative_url }}">
                     <img class="music_thumbnail img-responsive" src="{{ blogs.thumbnail }}">
+<<<<<<< HEAD
                      <h4 class="blog_grid_post_title">{{ blogs.title }}</h4>
+=======
+                     <h3 class="blog_grid_post_title">{{ blogs.title }}</h3>
+>>>>>>> 215a5f65b055526f325a146142ad3222ad570cca
                      <div class="post_content_wrapper">
                          {{ blogs.content | truncate: 200 }}
                      </div>

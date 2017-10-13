@@ -1,0 +1,32 @@
+---
+pages:
+- _posts/blogs/2017-09-16-now-is-the-time.md
+hide_body: false
+fields:
+- type: textarea
+  name: title
+  label: Title
+  description: title of the blog post
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: image that shows up at the blog page's grid.
+  config:
+    maxSize: '2'
+- type: textarea
+  name: background
+  label: Background
+  description: background color of the post as seen in the blog grid
+- type: textarea
+  name: category
+  label: category
+  default: blogs
+- type: textarea
+  name: layout
+  label: layout
+  default: blog-post
+- type: textarea
+  label: comments
+  name: comments
+  description: disqus comments
+  default: 'true'
