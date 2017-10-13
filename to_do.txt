@@ -1,0 +1,5 @@
+Options:
+--------
+
+1. Host website on Amazon s3 and private repo on bitbucket.
+2. Free hosting on Github repo with public repo, and SSL through cloudflare. 

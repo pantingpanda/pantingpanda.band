@@ -4,18 +4,20 @@
 <body>
   {% include header.html %}
   <main class="page-content" aria-label="Content">
-    <img id="home_background" src="../assets/img/{{ page.background }}">
-    <h1 class="justify-content-end" id="intro_txt">{{ page.intro }}</h1>
+    <div style="background-color:rgba(0,0,0,0.2);">
+    <img id="home_background" style="opacity:0.7;" src="../assets/img/{{ page.background }}">
+    </div>
+    <h1 class="text-left" id="intro_txt">{{ page.intro }}</h1>
     <div class="icon_holder">
     <ul>
         <li>Listen Now:</li>
-        <li><a href="{{ page.spotify }}"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
         <li><a href="{{ page.bandcamp }}"><img class="bandcamp_logo" src="assets/img/bandcamp-button-circle-black-64.png"></a></li>
-        <li><a href="{{ page.itunes }}"><i class="fa fa-music" aria-hidden="true"></i></a></li>
+        <!--<li><a href="{{ page.itunes }}"><i class="fa fa-music" aria-hidden="true"></i></a></li>
         <li><a href="{{ page.youtube}}"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-        <li><a href="{{ page.vinyl }}">Vinyl</a></li>
+        <li><a href="{{ page.spotify }}"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+        <li><a href="{{ page.vinyl }}">Vinyl</a></li>-->
     </ul>
-    </div>
+  </div>
   </main>
     {% include footer.html %}
 </body>

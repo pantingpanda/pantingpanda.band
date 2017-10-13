@@ -20,9 +20,9 @@
   <!--Stylesheets-->
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/bootstrap.css" | relative_url }}">
-  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css" | relative_url }}">
   <link rel="stylesheet" href="/assets/main.css" | relative_url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans" rel="stylesheet">
   <!--Scripts-->
   <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/538888beb6db37d937f4c2357/d6734e97b509bf14a2025a8fd.js");</script>
 </head>
@@ -31,8 +31,8 @@
   <body>
 
     <header>
- <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="">
+ <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="/">
     <object height="75px" id="logo_object" data="http://localhost:4000/assets/img/logo.svg">
       <img src="http://localhost:4000/assets/img/logo.png">
     </object>
@@ -51,11 +51,11 @@
       <li class="nav-item">
         <a class="nav-link" href="/blog">Blog</a>
       </li>
-      <li class="nav-item">
+      <!--<li class="nav-item">
         <a class="nav-link" href="/about">About</a>
-      </li>
+      </li>-->
      <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact</a>
+        <a class="nav-link" href="mailto:moniet@pantingpanda.band">Contact</a>
       </li>
     </ul>
   </div>
@@ -72,24 +72,17 @@
   <div class="container-fluid">
     <div class="row">
         
-        <div class="col-md-4">
-            <a class="grid_link" href="/audio/2017/08/27/postone.html">
-                <img class="music_thumbnail img-responsive" src="http://localhost:4000/assets/img/500.png">
-                 <h3 class="grid_post_title"><small>Single</small> <br> post one </h3>
+        <div class="col-md-6 mt-5">
+            <a class="grid_link" href="/audio/2017/09/10/JellyFlop.html">
+                <img class="music_thumbnail img-responsive" src="http://localhost:4000/assets/img/jellyflop.jpeg">
+                 <h3 class="grid_post_title"><small>OST</small> <br> JellyFlop (OST) </h3>
             </a>
         </div>
         
-        <div class="col-md-4">
-            <a class="grid_link" href="/audio/2017/08/26/posttwo.html">
-                <img class="music_thumbnail img-responsive" src="http://localhost:4000/assets/img/polaroid_woman.png">
-                 <h3 class="grid_post_title"><small>Single</small> <br> Polaroid Woman </h3>
-            </a>
-        </div>
-        
-        <div class="col-md-4">
-            <a class="grid_link" href="/audio/2017/08/25/posthree.html">
-                <img class="music_thumbnail img-responsive" src="http://localhost:4000/assets/img/mountains_minimal_art.png">
-                 <h3 class="grid_post_title"><small>Single</small> <br> Mountains and Lakes </h3>
+        <div class="col-md-6 mt-5">
+            <a class="grid_link" href="/audio/2017/08/27/ohw.html">
+                <img class="music_thumbnail img-responsive" src="http://localhost:4000/assets/img/ohw.png">
+                 <h3 class="grid_post_title"><small>OST</small> <br> One Hell of a Week (OST) </h3>
             </a>
         </div>
         
@@ -112,6 +105,7 @@
   </ul>
 </footer>
 <script type="text/javascript" src="https://code.jquery.com/jquery-git.min.js"></script>
+<script type="text/javascript" src="/assets/js/popover.min.js"></script>
 <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/script.js"></script>
 <script type="text/javascript" src="/assets/js/masonry.pkgd.js"></script>

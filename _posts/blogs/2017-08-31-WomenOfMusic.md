@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "Women Of Music I Adore"
-thumbnail: women_of_music.jpeg
+thumbnail: /assets/img/women_of_music.jpeg
 background: "#FFF2D9"
 category: blogs
 comments: true
@@ -26,11 +26,3 @@ As a fan of home studios and bedroom production, I was bound to fall in love wit
 Her music is dynamic, and can be melancholic and energetic at the same time. What I like most about her music is how it flows through so many sections, and how she's able to transition from one catchy guitar intro, and convert it completely in the pre-chorus and choruses following it.
 
 All in   all, [Allison's](https://open.spotify.com/track/3B0vMz20sN9UUwAwcP2QGQ) music is a fun combination of good ol' rock song forms, minimal (but effective) use of instrumentation, heavyhearted and personal lyrics, a remarkably unique voice, and a perfect guitar tone!
-
-## Frankie Rose
-
-## Bethany Consentino
-
-## Suzanne Ciani
-
-## Pauline Croze

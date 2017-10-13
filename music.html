@@ -12,7 +12,7 @@ canonical_url: 'http://pantingpanda.band/'
   <div class="container-fluid">
     <div class="row">
         {% for audio in site.categories.audio %}
-        <div class="col-md-4">
+        <div class="col-md-6 mt-5">
             <a class="grid_link" href="{{ audio.url | relative_url }}">
                 <img class="music_thumbnail img-responsive" src="{{ site.url}}/assets/img/{{ audio.thumbnail }}">
                  <h3 class="grid_post_title"><small>{{ audio.release_type }}</small> <br> {{ audio.title }} </h3>
