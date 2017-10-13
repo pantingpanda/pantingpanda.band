@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: "Why Music is a Practical Career"
-thumbnail: "music_practical_career.jpeg"
+thumbnail: "/assets/img/music_practical_career.jpeg"
 categories: blogs
 background: "#fff"
 comments: 'true'
