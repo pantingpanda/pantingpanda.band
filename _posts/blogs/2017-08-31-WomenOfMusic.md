@@ -6,7 +6,6 @@ thumbnail: /assets/img/women_of_music.jpeg
 =======
 title: Women Of Music I Adore
 thumbnail: "/assets/img/women_of_music.jpeg"
->>>>>>> 215a5f65b055526f325a146142ad3222ad570cca
 background: "#FFF2D9"
 comments: true
 categories: blogs

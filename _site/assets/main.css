@@ -202,11 +202,13 @@ padding: 15px;
 }
 /*music post*/
 .music_post_wrapper .fa-spotify, .music_post_wrapper .fa-music {
-font-size: 2rem !important;
+font-size: 3rem !important;
 }.music_post_wrapper .fa-bandcamp {
 font-size: 1.8rem !important;
 }
-
+.fa {
+  color:#5688FD;
+}
 /*blog grid*/
 .grid-sizer,
 .grid-item {
@@ -315,6 +317,7 @@ padding: 0px;
 }
 .music_post_wrapper .display-3, .music_post_wrapper .fa {
 margin-left: 15px;
+font-size: 1.8rem !important;
 }
 /*End Music Post*/
 
