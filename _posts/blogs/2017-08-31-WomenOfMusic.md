@@ -1,15 +1,11 @@
 ---
 layout: blog-post
-<<<<<<< HEAD
 title: "Women Of Music I Adore"
-thumbnail: /assets/img/women_of_music.jpeg
-=======
-title: Women Of Music I Adore
 thumbnail: "/assets/img/women_of_music.jpeg"
-background: "#FFF2D9"
-comments: true
 categories: blogs
-date: 2017-08-31 00:00:00 +0000
+background: "#fff"
+comments: 'true'
+layout: blog-post
 ---
 
 I was inspired to write this post because I feel like the only women I see being represented in social media are the big stars like Taylor Swift, Beyoncé, Katy Perry etc. Although I have nothing against these artists, and acknowledge the fact that they're talented in their own right, I would still like to see more than just the one-off article on Pitchfork -for example- about the artists I've mentioned in the post.
