@@ -5,6 +5,7 @@ layout: blog-post
 thumbnail: "/assets/img/polaroid_woman.png"
 title: Now is the Time
 categories: blogs
+date: 2017-09-16 00:00:00 +0000
 ---
 Now is the greatest time ever for making it in the music industry. And all you need is the necessary skills, patience, and the will to preserve through anything.
 

@@ -1,11 +1,12 @@
 ---
 layout: music-post
-title: "JellyFlop (OST)"
-thumbnail: "jellyflop.jpeg"
+title: JellyFlop (OST)
+thumbnail: jellyflop.jpeg
 background: "#D9FFFF"
-category: audio
-release_type: "OST"
-bandcamp: "http://pantingpanda.bandcamp.com/album/jellyflop"
+release_type: OST
+bandcamp: http://pantingpanda.bandcamp.com/album/jellyflop
+categories: audio
+date: 2017-09-10 00:00:00 +0000
 ---
 
 >> Credits: Music Composition, Sound Design

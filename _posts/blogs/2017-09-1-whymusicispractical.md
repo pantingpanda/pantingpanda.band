@@ -1,11 +1,11 @@
 ---
 layout: blog-post
-title: "Why Music is a Practical Career"
+title: Why Music is a Practical Career
 thumbnail: "/assets/img/music_practical_career.jpg"
 categories: blogs
 background: "#fff"
 comments: 'true'
-layout: blog-post
+date: 2017-09-01 00:00:00 +0000
 ---
 Music is often disregarded as an impractical in many families, perhaps because of the "you are something or you are nothing" philosophy that we keep hearing in the music industry. But I don't believe that statement to be true. And here's why:
 
