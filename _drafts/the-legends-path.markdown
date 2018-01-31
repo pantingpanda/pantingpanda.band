@@ -3,7 +3,7 @@ title: The Legend's Path
 date: 2018-01-31 14:59:00 Z
 categories:
 - audio
-thumbnail: 'legendspath.png
+thumbnail: 'legendspath2.png
 
 '
 layout: music-post
