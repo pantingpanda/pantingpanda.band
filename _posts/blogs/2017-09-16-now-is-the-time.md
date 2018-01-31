@@ -1,12 +1,14 @@
 ---
+title: Now is the Time
+date: 2017-09-16 00:00:00 Z
+categories:
+- blogs
 background: "#fff"
 comments: 'true'
 layout: blog-post
 thumbnail: "/assets/img/polaroid_woman.png"
-title: Now is the Time
-categories: blogs
-date: 2017-09-16 00:00:00 +0000
 ---
+
 Now is the greatest time ever for making it in the music industry. And all you need is the necessary skills, patience, and the will to preserve through anything.
 
 I understand that the technical stuff can be complex, but as ***Ari Herstand*** says, you should spend 50% on your music and 50% promoting it; i.e, over the entire course of the process.
