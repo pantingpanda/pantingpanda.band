@@ -6,6 +6,7 @@ categories:
 thumbnail: 'legendspath2.png
 
 '
+release_type: OST
 layout: music-post
 ---
 
