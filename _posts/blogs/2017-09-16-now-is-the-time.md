@@ -6,7 +6,7 @@ categories:
 background: "#fff"
 comments: 'true'
 layout: blog-post
-thumbnail: "/assets/img/polaroid_woman.png"
+thumbnail: "polaroid_woman.png"
 ---
 
 Now is the greatest time ever for making it in the music industry. And all you need is the necessary skills, patience, and the will to preserve through anything.

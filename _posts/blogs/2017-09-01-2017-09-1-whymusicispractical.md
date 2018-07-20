@@ -4,7 +4,7 @@ date: 2017-09-01 00:00:00 Z
 categories:
 - blogs
 layout: blog-post
-thumbnail: "/assets/img/music_practical_career.jpg"
+thumbnail: "music_practical_career.jpg"
 background: "#fff"
 comments: 'true'
 ---

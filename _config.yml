@@ -8,11 +8,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: 
+email:
 description: This is the official site of Panting Panda, the moniker of ambient/electronic
   composer Moniet Sawhney.
-baseurl: 
-url: 
+baseurl:
+url: https://pantingpanda.band/
 markdown: kramdown
 plugins:
 - jekyll-feed

@@ -3,7 +3,7 @@ title: Women Of Music I Adore
 date: 2017-08-31 00:00:00 Z
 categories: blogs
 layout: blog-post
-thumbnail: "/assets/img/women_of_music.jpeg"
+thumbnail: "women_of_music.jpeg"
 background: "#fff"
 comments: 'true'
 ---
