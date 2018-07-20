@@ -2,7 +2,7 @@
 title: Blog
 layout: default
 bg-color: "#FFD9D9"
-canonical_url: http://pantingpanda.band/
+canonical_url: https://pantingpanda.band/
 jumbo-bg: transparent
 ---
 
@@ -17,7 +17,7 @@ jumbo-bg: transparent
         <div class="grid-item">
             <div class="post-link-container" style="background-color:{{ blogs.background }}">
                 <a class="grid_link" href="{{ blogs.url | relative_url }}">
-                    <img class="music_thumbnail img-responsive" src="{{ blogs.thumbnail }}">
+                    <img class="music_thumbnail img-responsive" src="{{ site.url }}/assets/img/{{ blogs.thumbnail }}">
 
 
 <h3 class="blog_grid_post_title">{{ blogs.title }}</h3>
