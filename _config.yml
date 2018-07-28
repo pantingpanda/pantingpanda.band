@@ -12,7 +12,7 @@ email:
 description: This is the official site of Panting Panda, the moniker of ambient/electronic
   composer Moniet Sawhney.
 baseurl:
-url: https://pantingpanda.github.io/
+url: https://pantingpanda.github.io
 markdown: kramdown
 plugins:
 - jekyll-feed
