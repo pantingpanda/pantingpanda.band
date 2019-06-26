@@ -9,7 +9,7 @@ layout: blog-post
 thumbnail: "html5.png"
 ---
 
-Introduction to WAI-ARIA Roles
+## Introduction to WAI-ARIA Roles
 
 I'm writing this post as a way to explore the basics of accessibility on the web, and  ultimately to pick up good habits of writing semantically rich markup. Accessibility is a topic I have great interest in and want to have a deep understanding of. By writing this blog, I thought it would be a great idea to bring people along on with me on the journey of learning to write better code.
 
@@ -23,7 +23,7 @@ One significant aspect of the specification is that it is built to achieve great
 
 ## Authoring ARIA Roles
 
-Web assisstive technologies, as mentioned above, rely heavily on the developers to author roles of different components to make the web accessibility. Therefore, it is our responsibility to clearly define different aspects of the website through our markup.
+Web assistive technologies, as mentioned above, rely heavily on the developers to author roles of different components to make the web accessibility. Therefore, it is our responsibility to clearly define different aspects of the website through our markup.
 
 ## Landmark Roles
 
@@ -41,21 +41,33 @@ One of the broader roles, is called 'landmark' roles. These define 'chunks' or l
 These roles helps assistive technologies quickly find important sections of the website. For example, if a blind person were to use a news channel, they could get the headlines quickly by traversing to the 'main' section of the page.
 
 #### Visualisation of Landmarks
-![Alt text](/path/to/img.jpg)
+![Visualisation of landmarks](../../assets/img/main_landmark.png)
+![Visualisation of landmarks](../../assets/img/search_landmark.png)
 
 In the above image, I utlized an extension on mozilla called landmarks. This extension highlights the different 'roles' that are on the website. This can give us a good understanding of how it would be used. Image if a voice over were to speak the roles highlighted instead.
 
 #### The code from apples websites looks like this:
 
 ```
-<nav aria-label="Global Navigation" data-store-locale="us" data-store-api="https://secure1.store.apple.com/shop/bag/status" dir="ltr" id="ac-globalnav" data-hires="false" data-analytics-region="global nav" class="js no-touch" role="navigation" data-search-api="/search-services/suggestions/" data-search-locale="en_US" lang="en-US">
+<nav aria-label="Global Navigation"
+data-store-locale="us"
+data-store-api="https://secure1.store.apple.com/shop/bag/status"
+dir="ltr" id="ac-globalnav"
+data-hires="false"
+data-analytics-region="global nav"
+class="js no-touch"
+role="navigation"
+data-search-api="/search-services/suggestions/"
+data-search-locale="en_US"
+lang="en-US"
+>
 
 ```
 
 Here, we can observe the syntax for how to define aria roles as the following:
 
 ```
-  <div role="main"> … </div>
+<div role="main"> … </div>
 
  <!— all roles are defined in the same manner —!>
 
@@ -63,7 +75,7 @@ Here, we can observe the syntax for how to define aria roles as the following:
 ```
 
 
-Properties
+## Properties
 
 Properties help give extra meaning to the elements on the web page to assistive technologies.
 For example, if a blind person were using a website, the screen reader would be able to inform them about images, and various input elements in a form.
@@ -104,7 +116,7 @@ By adding this attribute, the screen-reader can alert the user that the field is
 </form>
 
 ```
-Alternate Text for Images
+## Alternate Text for Images
 
 Alternate text is a big topic of conversation in the web developement community as many companies have gotten in trouble for not implementing accessibility features in their websites, especially in regards to images. Dominos is one of those companies.
 
@@ -114,7 +126,8 @@ To begin with, the alternate text is a way for assistive technologies to make se
 
 Here's an example:
 
-``` <img src="./images/earth.jpg"  alt="a picture depicting earth">
+```
+ <img src="./images/earth.jpg"  alt="a picture depicting earth">
 
 ```
 
@@ -122,13 +135,13 @@ We can also use the arialabelled-by attribute to provide meaning to the image. T
 
 Here's an example:
 
-``` <p id="earth-desc">A picture depicting earth</p>
+``` 
+<p id="earth-desc">A picture depicting earth</p>
  <img src="./images/earth.jpg"  aria-labelledby="earth-desc">
-
 ```
 
 #### Empty alt tags
 
 There may be times where you would want to but an empty alt tag. For instance, if a banner uses an image tag for decorative purposes, there is no meaning or reason for it to have a alt description. If the image has an empty alt tag, the screen-reader will simply state that it is an image. However, without the alt tag, as mentioned previously, reader will read out the entire url.
 
-Hopefully, these examples provide some insight into images and alt tags, and just how easy they are to implement. Don't be lazy, be ahead of the game, and implement WAI-ARIA in your web applications. 
+Hopefully, these examples provide some insight into images and alt tags, and just how easy they are to implement. Don't be lazy, be ahead of the game, and implement WAI-ARIA in your web applications.
