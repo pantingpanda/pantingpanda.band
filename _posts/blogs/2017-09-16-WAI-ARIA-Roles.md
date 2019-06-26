@@ -40,9 +40,9 @@ One of the broader roles, is called 'landmark' roles. These define 'chunks' or l
 
 These roles helps assistive technologies quickly find important sections of the website. For example, if a blind person were to use a news channel, they could get the headlines quickly by traversing to the 'main' section of the page.
 
-#### Visualisation of Landmarks
-![Visualisation of landmarks](../../assets/img/main_landmark.png)
-![Visualisation of landmarks](../../assets/img/search_landmark.png)
+#### Visualisation of Landmarks 
+![Visualisation of landmarks](/assets/img/main_landmark.png)
+![Visualisation of landmarks](/assets/img/search_landmark.png)
 
 In the above image, I utlized an extension on mozilla called landmarks. This extension highlights the different 'roles' that are on the website. This can give us a good understanding of how it would be used. Image if a voice over were to speak the roles highlighted instead.
 
