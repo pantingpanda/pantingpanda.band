@@ -12,7 +12,7 @@ Responsive technologies in web development are probably one of the most importan
 
 #### Why SVG?
 
-SVG is a great format for creating graphics online as it can scale with the screen without [aliasing](). This means that as developers we do not need to load new images for different responsive break points as you would need to do with other image formats such as png, jpeg, etc.
+SVG is a great format for creating graphics online as it can scale with the screen without aliasing. This means that as developers we do not need to load new images for different responsive break points as you would need to do with other image formats such as png, jpeg, etc.
 
 Moreover, SVG has great [browser support](). Even opera supports it!
 
@@ -30,7 +30,7 @@ A tip when designing the SVG in any software is to label the layers appropriatel
 
 Here's an example of how I labeled the layers in my project:
 
-![affinity designer screengrab](../assets/img/ad_menu_layers.png)
+![affinity designer screengrab](/assets/img/ad_menu_layers.png)
 
 #### Step 2: Exporting
 
@@ -38,7 +38,7 @@ The method I use to export the SVG is to show everything on the screen. Fair war
 
 Here's an example of my export:
 
-![exporting svg image](../assets/img/svg_menu_export.png)
+![exporting svg image](/assets/img/svg_menu_export.png)
 
 #### Step 3: Cleaning Up
 Once the SVG is exported, we need the 'clean' the markup.
@@ -51,7 +51,7 @@ To cleanup the file, I use a tool called 'SVGO' which is available as an online 
 All you need to do is paste your markup in the input field, and it will automatically optimise the file. You will then see a page with an image of your SVG where you can copy the markup.
 
 **My svg file was cut down from 1.07k to 788 bytes:**
-![svgo website screengrab](../assets/img/svgo_int_menu.png)
+![svgo website screengrab](/assets/img/svgo_int_menu.png)
 
 
 #### STEP 4: Hiding elements
@@ -60,7 +60,7 @@ Once the SVG has been optimised, it can be copied into an html file.
 
 To find the elements, I used the inspect tool in Firefox. Here's an example:
 
-![inspecting svg in firefox browser](../assets/img/firefox_svg_inspect.png)
+![inspecting svg in firefox browser](/assets/img/firefox_svg_inspect.png)
 
 On inspecting each element, it's a good idea to label each relative element inside the SVG with an id or class. For this reason, I mentioned above that it is important to label the layers appropriately when working in your graphic design software of choice.
 
