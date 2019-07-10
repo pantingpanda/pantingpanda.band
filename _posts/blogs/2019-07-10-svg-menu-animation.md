@@ -4,6 +4,7 @@ title:  "Creating an Interactive Menu with SVG"
 date:   2019-07-07 13:29:19 +0100
 categories: blogs
 background: "#fff"
+thumbnail: 'interactive_menu.png'
 comments: 'true'
 ---
 # Creating an Interactive Menu with SVG
