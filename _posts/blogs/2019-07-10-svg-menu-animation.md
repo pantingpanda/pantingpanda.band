@@ -7,8 +7,6 @@ background: "#fff"
 thumbnail: 'interactive_menu.png'
 comments: 'true'
 ---
-# Creating an Interactive Menu with SVG
-
 Responsive technologies in web development are probably one of the most important aspects of web development today. In an effort to explore the topic a little more, I decided to create an interactive menu using SVG that would concisely hide and show links.
 
 #### Why SVG?
