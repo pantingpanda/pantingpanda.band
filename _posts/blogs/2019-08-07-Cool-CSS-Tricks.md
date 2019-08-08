@@ -13,6 +13,25 @@ This can be styled used the ‘caret-color’ attribute in css.
 
 Check out this example here: [caret color codepen](https://codepen.io/moniet/pen/voRbwJ?editors=0100)
 
+`
+:root {
+  --bg: #badfdb;
+  --caret: #ff8a5c;
+  --input-bg: #fcf9ea;
+}
+
+input {
+  border: solid 5px #49beb7;
+  padding: 1em;
+  width: 50vw;
+  background: var(--input-bg);
+  caret-color: var(--caret);
+  color: var(--caret);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+`
+
 #### Styling Bullet Points
 
 Bullet points can be styled with the ::marker attribute after the classname. 
