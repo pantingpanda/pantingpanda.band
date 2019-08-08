@@ -13,7 +13,7 @@ This can be styled used the ‘caret-color’ attribute in css.
 
 Check out this example here: [caret color codepen](https://codepen.io/moniet/pen/voRbwJ?editors=0100)
 
-`
+```
 :root {
   --bg: #badfdb;
   --caret: #ff8a5c;
@@ -30,7 +30,7 @@ input {
   font-weight: bold;
   font-size: 1.5em;
 }
-`
+```
 
 #### Styling Bullet Points
 
